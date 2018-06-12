@@ -1,0 +1,387 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+}
+
+html * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 80px;
+  /*background-color: #8c8c8c;*/
+  /*margin-right: 50px;*/
+  /*padding-right: 50px;*/
+  /*border: 50px;*/
+}
+
+.navbar-default {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 0;
+  z-index: 100;
+
+}
+
+.logo {
+  background-image: url('../../assets/taskboard logo.svg');
+  background-size: cover;
+
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+
+}
+.p-header {
+  border: 0;
+  height: 100%;
+  padding: 15px 15px;
+}
+
+div > a {
+
+  float: left;
+  display: inline;
+}
+
+.navbar-collapse {
+  padding: 0;
+  /*position: fixed;*/
+
+}
+
+.nav {
+  /*margin-left: 10px;*/
+}
+
+.containerr {
+
+  display: inline-flex;
+  /*display: flex;*/
+  align-items: flex-start;
+  /*justify-content: space-around;*/
+  margin-top: 30px;
+  /*min-height: 30vh;*/
+  max-height: 100%;
+  /*background-color: coral;*/
+  /*padding-left: 2%;*/
+
+}
+
+.list-column {
+
+  display: inline-block;
+  width: calc((90vw) / 4);
+  max-height: calc(100vh - 150px);
+  position: relative;
+  /*margin: 0 auto;*/
+  /*background-color: #8c8c8c;*/
+  border-left: 2px solid #f5f5f5;
+  border-right: 2px solid #f5f5f5;
+  margin-left: 1%;
+
+}
+
+.label {
+  margin-left: 3px;
+}
+
+.list-column > div {
+
+  max-height: calc(93vh - 150px);
+  min-height: 40px;
+  width: 100%;
+  overflow: auto;
+  padding-bottom: 20px;
+  position: relative;
+
+}
+
+.list-column header {
+  /*outline: 2px blue solid;*/
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #F5F5F5;
+  /*height: 100%;*/
+  /*height: 500px;*/
+  font-weight: bold;
+  text-transform: capitalize;
+
+}
+
+.panel {
+  margin: 0;
+  height: 50px;
+
+}
+
+.input-heading {
+  width: 100%;
+  height: 100%;
+
+}
+
+.hiddenMy {
+  display: none;
+}
+
+.allWayson {
+  display: block;
+}
+
+.list-column footer {
+  /*outline: 2px pink solid;*/
+  /*position: absolute;*/
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  /*background-color: #f69719;*/
+  margin: 0 auto;
+  position: relative;
+
+}
+.spaninBtn {
+text-align: left;
+}
+
+.addlist {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -52px;
+  padding: 10px 80px;
+  text-align: center;
+  height: 50px;
+
+}
+
+.card {
+  /*width: calc(100vw / 4);*/
+  width: calc((90vw) / 4);
+padding-left: 3%;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #F5F5F5;
+}
+
+.list > li {
+
+  height: 110%;
+  min-height: 100px;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+
+}
+
+.dropdown-menu {
+  left: inherit;
+  right: 0;
+}
+.show {
+  display: block;
+}
+
+
+.list .liCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 4px;
+  padding:10px;
+  padding-bottom: 30px;
+  width: 90%;
+
+
+}
+
+
+.bottomMy {
+
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+
+}
+
+
+
+
+
+.input-group > .input-group-btn > .editbtn {
+  margin-left: -40px;
+}
+
+
+
+
+.liCard:hover .editCard {
+  display: inline-block;
+}
+
+
+.editCard,
+.editCard:link,
+.editCard:hover,
+.editCard:visited,
+.editCard:active {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+
+}
+
+.editCard {
+  display: none;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+/*textarea {
+  display: inline-block;
+}*/
+
+.input {
+  /*outline: 1px blue solid;*/
+  /*float: right;*/
+  /*display: block;*/
+  /*width: 70%;*/
+  /*float: right;*/
+  width: 86%;
+  margin-left: 13%;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.moveto {
+
+}
+
+.movetoselect {
+  width: 86%;
+
+  margin-left: 13%;
+}
+
+.modal-footer {
+  clear: both;
+}
+
+
+
+.form-check-label > input {
+  /*outline: 1px red solid;*/
+  margin-top: 4px;
+  margin-right: 4px;
+}
+
+.test {
+  /*outline: 2px pink solid;*/
+  display: inline-block;
+  padding-left: 5px;
+  height: 100%;
+  max-height: 95px;
+  width: 50%;
+  margin-left: -35%;
+  overflow: auto;
+}
+
+.form-check-label {
+  display: block;
+  text-align: left;
+}
+
+.deletebtn {
+  text-align: left;
+  /*display: block;*/
+}
+
+.modal-bodymy {
+  text-align: left;
+}
+
+.member {
+  width: 50%;
+  line-height: 4rem;
+  min-height: 60px;
+
+}
+
+.member input {
+  padding: 0;
+  border: 0;
+}
+
+
+
+#addmemberinput {
+  width: 50%;
+margin-right: 20px;
+}
+
+
+.membernameinputbtns {
+  display: none;
+}
+
+.member:hover .membernameinputbtns {
+  display: block;
+}
+
+.memberview {
+  /*width: 100vw;*/
+  display: block;
+  padding: 2%;
+  /*outline: 2px blue solid;*/
+}
+
+.membertitle {
+  /*outline: 2px red solid;*/
+  margin-bottom: 2%;
+}
+
+@media (min-width: 0) {
+
+  .navbar-nav > li { /* Effects the problem regarding the float under 768px, fixes that. */
+    float: left;
+  }
+
+  .navbar-nav > li > a { /* Effects the box around the board selected box so it will be the same as above 768px. */
+    padding: 15px;
+  }
+
+  .nav.navbar-nav { /* Effects the board and members under 768px, gets them inline. */
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}
+
+
+
+
+
+
